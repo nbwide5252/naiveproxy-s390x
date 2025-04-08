@@ -129,7 +129,7 @@ EOF
     mkdir /root/naive
     cat <<EOF > /root/naive/naive-client.json
 {
-  "listen": "socks://127.0.0.1:4080",
+  "listen": "socks://127.0.0.1:10808",
   "proxy": "https://${proxyname}:${proxypwd}@${domain}:${proxyport}",
   "log": ""
 }
